@@ -1,0 +1,32 @@
+.scrum-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.scrum-column {
+  flex: 1;
+  background: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scrum-column h2 {
+  text-align: center;
+  color: #2563eb;
+}
+
+.scrum-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.scrum-column li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
